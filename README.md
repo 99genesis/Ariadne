@@ -179,19 +179,25 @@ Ariadne is explicitly architected to act as the backend engine for your **Obsidi
 
 ---
 
-## 📦 Building Standalone Executable (`build.bat`)
+## 📦 Building Standalone Executable (`build.bat` / `build.sh`)
 
-For Windows environments, Ariadne provides an automated build engine (`build.bat`) to compile the entire framework into a portable, zero-dependency standalone executable (`dist\Ariadne.exe`).
+Ariadne includes automated, one-click build engines to compile the entire framework into a portable, zero-dependency standalone binary across all major operating systems (`Windows`, `Linux`, `macOS`).
 
-### Automatic Dependency & Library Installation:
-You do **not** need to manually install dependencies before running the build script. If your system lacks required libraries (`requirements.txt`) or the `PyInstaller` compiler, `build.bat` automatically verifies, downloads, and installs all necessary Python packages via `pip` before initiating the compilation pipeline:
+### Automatic Dependency & Library Installation (`Zero-Preinstall Requirement`):
+You do **not** need to manually install dependencies or compilers before building. Even on a fresh operating system installation where required libraries (`requirements.txt`) and `PyInstaller` are completely missing, our build engine automatically verifies, downloads, and installs all necessary packages before initiating the compilation pipeline:
 
 ```cmd
-build.bat
+# Windows (PowerShell / CMD) — Compiles dist\Ariadne.exe with custom icon (ariadne.ico)
+.\build.bat
+
+# Linux / macOS — Compiles standalone binary dist/Ariadne
+chmod +x build.sh
+./build.sh
 ```
-Once the automated pipeline finishes, your portable executable will be generated inside:
+Once the automated pipeline finishes, your portable standalone executable (featuring the custom `ariadne.ico` icon) will be generated inside:
 ```text
-dist\Ariadne.exe
+dist/Ariadne.exe   (Windows)
+dist/Ariadne       (Linux / macOS)
 ```
 
 ---
