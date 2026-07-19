@@ -1,0 +1,12 @@
+id: "ariadne.builtin.username_intel"
+name: "Username Enumeration & Social Profile Intelligence"
+version: "1.0.0"
+author: "Ariadne Team"
+description: "High-speed asynchronous enumeration of username across popular social networks and developer platforms."
+supported_targets: ["username", "person"]
+supported_command: "username"
+required_capabilities: ["http_client", "event_bus"]
+events:
+  subscribes: []
+  publishes: ["ariadne.events.UsernameFound"]
+python_dependencies: ["aiohttp"]

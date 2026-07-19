@@ -1,0 +1,19 @@
+{
+  "welcome_banner": "Welcome to Ariadne OSINT Framework — Enterprise Graph & Intelligence Engine.",
+  "select_lang": "Please select your interface language immediately:",
+  "setup_title": "Ariadne Initial Setup Wizard",
+  "prompt_vault_root": "Enter default workspace/vault root directory",
+  "prompt_ai_provider": "Select primary AI text & reasoning provider",
+  "prompt_api_key": "Enter API key for {provider} (press Enter to skip/later)",
+  "prompt_proxy_enabled": "Enable network proxy for routing traffic? (y/N)",
+  "prompt_proxy_url": "Enter proxy URL (e.g. http://127.0.0.1:8080 or socks5://127.0.0.1:9050)",
+  "setup_complete": "Setup completed successfully! Configuration saved to {path}.",
+  "cmd_find_start": "Starting intelligence scan for target: {target} (Type: {type})",
+  "cmd_find_done": "Scan complete! Discovered {count} new finding(s). Saved to vault '{vault}'.",
+  "cmd_info_title": "Intelligence Summary Dashboard for Target: {target}",
+  "stats_total_notes": "Total Notes Indexed",
+  "stats_avg_conf": "Average Confidence Level",
+  "stats_by_entity": "Entity Breakdown",
+  "err_no_target": "Error: Target name must be provided.",
+  "err_unknown": "An unexpected framework error occurred: {error}"
+}

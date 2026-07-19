@@ -1,0 +1,19 @@
+{
+  "welcome_banner": "欢迎使用 Ariadne OSINT Framework — 企业级图谱与开源情报引擎。",
+  "select_lang": "请立刻选择您的界面语言：",
+  "setup_title": "Ariadne 初始化配置向导",
+  "prompt_vault_root": "输入默认工作区/知识库根目录",
+  "prompt_ai_provider": "选择主要 AI 文本与推理服务提供商",
+  "prompt_api_key": "输入 {provider} 的 API 密钥（按 Enter 跳过）",
+  "prompt_proxy_enabled": "是否启用网络代理路由流量？(y/N)",
+  "prompt_proxy_url": "输入代理 URL（例如 http://127.0.0.1:8080）",
+  "setup_complete": "配置成功完成！设置已保存至 {path}。",
+  "cmd_find_start": "开始对目标进行情报扫描：{target}（类型：{type}）",
+  "cmd_find_done": "扫描完成！发现 {count} 个新情报项，已保存至知识库 '{vault}'。",
+  "cmd_info_title": "情报摘要仪表盘，目标：{target}",
+  "stats_total_notes": "已索引笔记总数",
+  "stats_avg_conf": "平均可信度评分",
+  "stats_by_entity": "实体分类统计",
+  "err_no_target": "错误：必须提供目标名称。",
+  "err_unknown": "发生未预期的框架错误：{error}"
+}

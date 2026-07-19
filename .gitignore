@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build / Distribution directories
+/build/
+/dist/
+*.spec
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports & caches
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+tests/
+
+# Documentation & internal markdown notes (exclude all .md except README.md)
+Docs/
+*.md
+!README.md
+
+# Local OSINT workspaces, Target databases & local vaults
+Ariadne_Workspace/
+Targets/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local secrets, configurations & environment files
+config.json
+.env
+.env.local
+.secrets.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE, AI Agent local state & scratch pads
+.vscode/
+.idea/
+.agents/
+.gemini/
+scratch/
+walkthrough.md
+task.md
+*.log

@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ariadne-osint"
+version = "1.0.0"
+description = "Enterprise Asynchronous OSINT Framework with Obsidian Graph View & Zero-Dependency Plugin Architecture"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Ariadne Core Team"}
+]
+keywords = ["osint", "obsidian", "intelligence", "asyncio", "cli", "graph-view", "sherlock", "wayback"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+]
+dependencies = [
+    "aiohttp>=3.9.0",
+    "aiofiles>=23.2.0",
+    "pydantic>=2.7.0",
+    "pyyaml>=6.0.1",
+    "rich>=13.7.0",
+    "watchdog>=4.0.0",
+    "jinja2>=3.1.3",
+    "pillow>=10.2.0",
+    "keyring>=24.3.0",
+    "cryptography>=42.0.0",
+    "dnspython>=2.6.0",
+    "google-genai>=0.1.0",
+]
+
+[project.scripts]
+ariadne = "main:cli_entrypoint"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ariadne*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true

@@ -1,0 +1,1 @@
+"""Gaming platform providers package."""

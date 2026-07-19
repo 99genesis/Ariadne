@@ -1,0 +1,19 @@
+{
+  "welcome_banner": "Ariadne OSINT Framework'e Hoş Geldiniz — Kurumsal İstihbarat ve Graf Çözümleme Motoru.",
+  "select_lang": "Lütfen arayüz dilinizi hemen seçin:",
+  "setup_title": "Ariadne İlk Kurulum ve Yapılandırma Sihirbazı",
+  "prompt_vault_root": "Varsayılan çalışma alanı / Obsidian Kasa kök dizinini girin",
+  "prompt_ai_provider": "Birincil yapay zeka ve çıkarım sağlayıcısını seçin",
+  "prompt_api_key": "{provider} için API anahtarınızı girin (atlamak için Enter'a basın)",
+  "prompt_proxy_enabled": "Trafik yönlendirmesi için ağ ve gizlilik proksisi açılsın mı? (y/N)",
+  "prompt_proxy_url": "Proksi adresini girin (örn: http://127.0.0.1:8080 veya socks5://127.0.0.1:9050)",
+  "setup_complete": "Kurulum başarıyla tamamlandı! Yapılandırma {path} konumuna kaydedildi.",
+  "cmd_find_start": "Hedef için istihbarat taraması başlatılıyor: {target} (Tür: {type})",
+  "cmd_find_done": "Tarama tamamlandı! {count} yeni bulgu keşfedildi. '{vault}' kasasına işlendi.",
+  "cmd_info_title": "Hedef İstihbarat Özet Tablosu: {target}",
+  "stats_total_notes": "İndekslenen Toplam Not Sayısı",
+  "stats_avg_conf": "Ortalama Güven Skoru",
+  "stats_by_entity": "Varlık Türü Dağılımı",
+  "err_no_target": "Hata: Hedef adı zorunludur.",
+  "err_unknown": "Beklenmeyen bir sistem hatası oluştu: {error}"
+}

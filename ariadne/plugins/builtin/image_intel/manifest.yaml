@@ -1,0 +1,12 @@
+id: "ariadne.builtin.image_intel"
+name: "Image & Imagery Multi-Tier GEO-INT Analysis"
+version: "1.0.0"
+author: "Ariadne Team"
+description: "Hierarchical location prediction (City, Region, Country) and EXIF metadata extraction via dynamic Vision AI providers."
+supported_targets: ["image", "person", "custom"]
+supported_command: "image"
+required_capabilities: ["vision_provider", "event_bus"]
+events:
+  subscribes: []
+  publishes: ["ariadne.events.ImageGeoResolved"]
+python_dependencies: ["pillow"]

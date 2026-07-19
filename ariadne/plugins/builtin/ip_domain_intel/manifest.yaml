@@ -1,0 +1,12 @@
+id: "ariadne.builtin.ip_domain_intel"
+name: "IP Address, DNS Enumeration & Geolocation Intelligence"
+version: "1.0.0"
+author: "Ariadne Team"
+description: "DNS resolution (A, MX, NS, TXT), open GeoIP lookup, ASN identification, and network mapping."
+supported_targets: ["ip", "domain", "organization"]
+supported_command: ["ip", "domain"]
+required_capabilities: ["http_client"]
+events:
+  subscribes: []
+  publishes: []
+python_dependencies: ["aiohttp", "dnspython"]

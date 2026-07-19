@@ -1,0 +1,12 @@
+id: "ariadne.builtin.phone_email_intel"
+name: "Phone Number & Email Verification & Breach Check"
+version: "1.0.0"
+author: "Ariadne Team"
+description: "E.164 phone formatting, telecom carrier inference, DNS MX record validation, and data breach intelligence."
+supported_targets: ["phone", "email", "person"]
+supported_command: ["phone", "email"]
+required_capabilities: ["dns_resolver", "event_bus"]
+events:
+  subscribes: []
+  publishes: ["ariadne.events.LeakDiscovered"]
+python_dependencies: ["dnspython"]
