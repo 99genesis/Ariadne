@@ -49,7 +49,7 @@ While traditional OSINT tools dump raw, fragmented output into transient console
 
 * **👤 Username & Social Graph Reconnaissance (`username`):**
   * Deep enumeration and verification across decentralized networks, developer platforms, gaming hubs, and technical forums (including GitHub, GitLab, DockerHub, PyPI, npm, Steam, HackerNews, Mastodon, Telegram, Twitter/X, Reddit, Instagram, TikTok, Technopat, DonanımArşivi, and more).
-  * Includes an **Intelligent Alias Mutation Engine** that generates cross-platform username variations (`endann` ➔ `end_ann`, `Austin123` ➔ `Austin_123`) to uncover hidden secondary accounts.
+  * Includes an **Intelligent Alias Mutation Engine** that generates cross-platform username variations (`username` ➔ `user_name`, `Jacob` ➔ `Jacob123`) to uncover hidden secondary accounts.
 
 * **🖼️ Visual & EXIF Adli Bilişim (Forensics) (`image`):**
   * Extracts precise EXIF metadata, camera hardware models, exposure metrics, embedded GPS coordinates, and calculates perceptual hashes (`dhash`) to detect duplicate or modified imagery.
