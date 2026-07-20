@@ -208,7 +208,32 @@ dist/Ariadne       (Linux / macOS)
 * **Operating System Credential Vault Protection (`OSSecretsManager`):** Ariadne enforces zero plaintext API key storage. All AI Studio (`Google Gemini`, `OpenAI`, `OpenRouter`) and provider API tokens entered during setup are encrypted and stored directly inside your native operating system credential vault (**Windows Credential Manager** / **macOS Keychain** via `keyring`). Neither local configuration files (`config.json`) nor exported markdown notes will ever expose your private credentials.
 
 ---
+---
 
+## 🤝 Community & Contact
+
+If you have any questions, feature requests, bug reports, or would like to contribute to the project, feel free to reach out.
+
+<div align="center">
+
+| Platform | Contact |
+|----------|---------|
+| 💬 **Discord** | `99genesis` |
+| 📢 **Telegram** | https://t.me/lhiddensociety |
+
+</div>
+
+Contributions, bug reports, and suggestions are always welcome.
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+<div align="center">
+  <sub>Built with precision by <b>99genesis</b> for threat intelligence and cybersecurity operations.</sub>
+</div>
 ## 📄 License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
